@@ -1,0 +1,285 @@
+<!DOCTYPE html>  
+<html>   
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="сss/main.css">
+	<link rel="stylesheet" href="сss/animate.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="сss/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="icon" href="flavicon.png" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+
+	
+	<title>Sborka.62</title>   
+
+</head> 
+
+<body>
+
+	<div id="section_gallery_page">
+
+
+		<div class="label">
+
+			<div class="label_cont wow fadeIn" data-wow-delay="1s"  data-wow-duration="5s">
+				<div class="logo_block" >
+					<a href="index.html"> <img src="images/logo.png"> </a>
+				</div>
+				<div class="phone_block">
+					<div class="phone_transparent_block">
+						<div class="phone_icon"></div>
+						<h2> <span style="color: #7a6855;" >8 (999)</span > 99-99-99</h2>
+					</div>
+				</div>
+
+				
+			</div>
+
+		</div>
+
+
+		<div class="nav_container_mobile wow fadeInDown" data-wow-delay="1s"  data-wow-duration="3s">
+			<a class="menu-trigger">Меню</a>
+			<ul> 
+				<li><a href="#section1_enter"  class="ancLinks">Главная</a></li>
+				<li><a href="#section3_cor"  class="ancLinks">Услуги</a></li>
+				<li><a href="#section_type_services_cor"  class="ancLinks">Цены</a></li>
+				<li><a href="#section_calc_cor"  class="ancLinks">Калькулятор</a></li>
+				<li><a href="#section_gallery_cor"  class="ancLinks">Галлерея</a></li>
+				<li><a href="#section_review_cor" class="ancLinks">Отзывы</a></li>
+				<li><a href="#section_map_cor"  class="ancLinks">География работ</a></li>
+				<li><a href="#section_last"  class="ancLinks">Контакты</a></li>
+
+			</ul>
+			
+		</div>
+
+
+		<div style="background:  #7a6855;" class="nav_container wow fadeInDown" data-wow-delay="1s"  data-wow-duration=".8s">
+			<a class="menu-trigger">Меню</a>
+			<ul style="margin-top: 0px;"> 
+				<li><a href="#section1_enter"  class="ancLinks">Главная</a></li>
+				<li><a href="#section3_cor"  class="ancLinks">Услуги</a></li>
+				<li><a href="#section_type_services_cor"  class="ancLinks">Цены</a></li>
+				<li><a href="#section_calc_cor"  class="ancLinks">Калькулятор</a></li>
+				<li><a href="#section_gallery_cor"  class="ancLinks">Галлерея</a></li>
+				<li><a href="#section_review_cor" class="ancLinks">Отзывы</a></li>
+				<li><a href="#section_map_cor"  class="ancLinks">География работ</a></li>
+				<li><a href="#section_last"  class="ancLinks">Контакты</a></li>
+
+			</ul>
+			
+		</div>
+
+
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/jquery-2.1.3.min.js" ></script>
+
+
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("a.ancLinks").click(function () {
+					var elementClick = $(this).attr("href");
+					var destination = $(elementClick).offset().top;
+					$('html,body').animate( { scrollTop: destination }, 1100 );
+					return false;
+				});
+			});
+		</script>
+
+
+
+
+
+		<script>
+			$('.menu-trigger').click(function(){
+				$('.nav_container_mobile ul').slideToggle(500);
+			});
+
+			$(window).resize(function(){
+				if ($(window).width() > 960 ) {
+					$('.nav_container_mobile ul').removeAttr('style');
+				}
+
+			});
+
+			jQuery('.nav_container_mobile ul li, .nav_container_mobile ul li a').click(function(){
+				jQuery('.nav_container_mobile ul').css('display','none');
+
+
+
+
+			});
+		</script>
+
+
+
+
+
+
+
+
+
+<!-- 
+																				<script>
+																					$(document).ready(function(){
+																						$('a[href^="#"]').click(function () { 
+																							elementClick = $(this).attr("href");
+																							destination = $(elementClick).offset().top();
+																							if($.browser.safari){
+																								$('body').animate( { scrollTop: destination }, 1000 );
+																							} else {
+																								$('html').animate( { scrollTop: destination }, 1000 );
+																							}
+																							return false;
+																						});
+																					});
+																				</script>
+																			-->
+
+
+
+
+
+																			<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+																			<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+
+
+
+
+																			<script> 
+																				jQuery(document).ready(function(){
+
+																					var navPos, winPos, navHeight;
+
+
+																						function refreshVar() {   //функция для постоянного рефрешинга страницы
+
+
+																							navPos = jQuery('.nav_container').offset().top;
+																							navHeight = jQuery('.nav_container').outerHeight(); // узнали полную высоту элемента включая отступы
+
+
+																						};
+																						refreshVar(); 
+																						jQuery(window).resize(refreshVar);
+
+																						 jQuery('<div class="clone-nav_container"></div>').insertBefore('.nav_container').height(navHeight).hide();// создаем клона и замещает его на меню, чтобы не было скачка из потока																						 
+
+
+																						 jQuery(window).scroll(function(){
+
+																						 	winPos = jQuery(window).scrollTop();
+																						 	if (winPos >= navPos) {
+																						 		jQuery('.nav_container').addClass('fixed shadow');
+																						 		jQuery('.clone-nav_container').show();
+
+																						 	}
+																						 	else {
+
+																						 		jQuery('.nav_container').removeClass('fixed shadow');
+																						 		jQuery('.clone-nav_container').hide();
+
+																						 	}
+
+																						 });
+
+																						});
+
+
+</script>
+
+<!-- СКРИПТ MOBILE    ФИКСИРОВАННОГО МЕНЮ -->
+
+<script> 
+	jQuery(document).ready(function(){
+
+		var navPos, winPos, navHeight;
+
+
+																						function refreshVar() {   //функция для постоянного рефрешинга страницы
+
+
+																							navPos = jQuery('.nav_container_mobile').offset().top;
+																							navHeight = jQuery('.nav_container_mobile').outerHeight(); // узнали полную высоту элемента включая отступы
+
+
+																						};
+																						refreshVar(); 
+																						jQuery(window).resize(refreshVar);
+
+																						 jQuery('<div class="clone-nav_container_mobile"></div>').insertBefore('.nav_container_mobile').height(navHeight).hide();// создаем клона и замещает его на меню, чтобы не было скачка из потока																						 
+
+
+																						 jQuery(window).scroll(function(){
+
+																						 	winPos = jQuery(window).scrollTop();
+																						 	if (winPos >= navPos) {
+																						 		jQuery('.nav_container_mobile').addClass('fixed shadow');
+																						 		jQuery('.clone-nav_container_mobile').show();
+
+																						 	}
+																						 	else {
+
+																						 		jQuery('.nav_container_mobile').removeClass('fixed shadow');
+																						 		jQuery('.clone-nav_container_mobile').hide();
+
+																						 	}
+
+																						 });
+
+																						});
+
+
+</script>
+<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+
+
+
+
+
+
+
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+<script src="js/slide2.js" ></script>
+
+
+
+
+<script src="js/jquery.bxslider.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			minSlides: 1,
+			maxSlides: 6,
+			responsive: true,
+			adaptiveHeight: true,
+			slideWidth: 240,
+			slideMargin: 1,
+			moveSlides: 1,
+			pager: false,
+			controls: true
+		});								
+	});
+</script>
+
+
+
+
+
+</body>
+</html>

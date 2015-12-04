@@ -1,0 +1,3404 @@
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;     
+	border: 0; 
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+html {height: 100%;}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.cleaerfix:before, 
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{ clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+
+html {height: 100%;}
+body {
+	height: 100%;
+	margin: 0 auto;
+	width: 100%; 
+	max-width: 1900px;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+@font-face {
+	font-family: "Proba Pro Medium";
+	src: url("../fonts/Proba_PRO/Proba Pro Medium.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: "Proba Pro Regular";
+	src: url("../fonts/Proba_PRO/ProbaPro-Regular.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Proba Pro Bold";
+	src: url("../fonts/Proba_PRO/Proba Pro Bold.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+/*
+УБрать КЛона Мобилки, чтобы ничего не ЕХАЛо*/
+.clone-nav_container_mobile {
+	display: none !important;
+}
+
+
+/*
+УБрать КЛона Мобилки, чтобы ничего не ЕХАЛо*/
+
+
+
+
+
+
+
+
+
+
+
+#section1_enter {
+	height: 705px;
+	max-height: 705px;
+	background: url(../images/main_bg.jpg) ;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+
+#container1 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+}
+
+.label {
+	background: #fff;
+	position: relative;
+	height: 90px;
+}
+
+.label_cont {
+	max-width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+
+} 
+
+
+.logo_block {
+	display: inline-block;
+	height: 80px;
+	width: 37%;
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+.phone_block {
+	display: inline-block;
+	height: 60px;
+	width: 62%;	
+	position: relative;
+
+
+}
+
+a img {
+	height: 102%;
+}
+
+.logo_block a {
+	position: relative;
+	top: 0px;
+
+}
+
+
+.phone_block h2 {
+	font: 25px "Proba Pro Medium", Arial, sans-serif;
+	color: #000;
+	display: inline-block;
+	margin-top: 9px;
+
+
+}
+
+.phone_transparent_block {
+	position: absolute;
+	right: 0px;
+}
+
+.phone_transparent_block img {
+	height: 57%;
+	display: inline-block;
+	position: relative;
+
+}
+
+.phone_icon  {
+	height: 75%;
+	position: absolute;
+	width: 40px;
+	background: url(../images/telephone.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: 196px;
+	top: 5px;
+
+}
+.phone_transparent_block {
+	height: 50px;
+}
+
+
+
+.nav_container {
+	height: 40px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	-moz-transition-property: all;
+	-moz-transition: .5s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .5s ease-in;
+}
+
+.nav_container_mobile {
+	display: none;
+}
+
+.menu-trigger {
+	display: none;
+	cursor: pointer;
+	font:  20px "Proba Pro Medium", Arial, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	padding-bottom: 13px;
+	
+}
+
+.nav_container li a {
+	font: 20px "Proba Pro Medium", Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	-moz-transition-property: all;
+	-moz-transition: .5s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .5s ease-in;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+
+}
+
+
+.nav_container li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nav_container li:last-child {
+	margin-right: 0px;
+}
+
+.nav_container ul {
+	margin-top: 7px;
+}
+
+.nav_container li a:hover {
+	-moz-transition-property: all;
+	-moz-transition: .2s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .2s ease-in;
+
+	font-size: 25px;
+
+	
+
+}
+
+
+
+/*............Классы для фиксированного меню...........*/
+
+
+
+
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 1000000000;
+	-moz-transition-property: all;
+	-moz-transition: .5s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .5s ease-in;
+	background:  #7a6855;
+	height: 60px;
+	font-size: 24px;
+	padding-top: 10px;
+
+
+
+}
+
+
+.shadow {
+	-webkit-box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 5px 2px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 2px 0px rgba(50, 50, 50, 0.75)
+}
+
+
+
+
+/*............Классы для фиксированного меню...........*/
+
+
+
+
+
+
+
+
+
+
+.cont1_h1_1{
+	font-family: "Proba Pro Regular";
+	color: #0ca7eb;
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 100px;
+
+}
+.cont1_h1_2 {
+	font-family: "Proba Pro Medium";
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.form1 {
+	border-width: 8px;
+	border-color:#7a6855;
+	border-style: solid;
+	width: 75%;
+	height: 135px;
+	margin: auto;
+	margin-top: 220px;
+}
+
+.form1 p {
+	font: 22px/22px "Proba Pro Medium";
+	color: #ffffff;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.textbox {
+	height: 44px;
+	width: 30%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #000;
+	border: #000 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 22px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.textbox2 {
+	height: 44px;
+	width: 30%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #000;
+	border: #000 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 4px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.button_form1 {
+	height: 41px;
+	width: 30%;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow:         0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	left: 14px;
+
+	font-family: "Proba Pro Medium";
+	color: #0da7eb;
+	font-size: 22px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+	-moz-transition-property: all;
+	-moz-transition: .2s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .2s ease-in;
+}
+
+
+.button_form1:hover {
+	
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow:    0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow:         0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	top: 5px;
+
+}
+
+
+
+
+
+#container2 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+}
+
+.bg_section2 {
+	height: 300px;
+	background: url(../images/bg_section2.jpg);
+}
+
+
+.three_block_sec2 {
+	display: inline-block;
+	width: 33%;
+	height: 160px;
+
+}
+
+.three_block_sec2 h1 {
+	font-family: "Proba Pro Medium";
+	color: #e6dcc7;
+	font-size: 64.67px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+	width: 40px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 61px;
+	margin-top: 13px;
+}
+
+
+.three_block_sec2 p {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 20px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+	position: absolute;
+	z-index: 2;
+	margin-top: 51px;
+	margin-left: 73px;
+}
+
+
+.three_block2_sec2 {
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+
+}
+
+
+.typoy_box {
+	/*border-width: 5px;
+	border-color: #e6dcc7;
+	border-style: solid;*/
+	height: 149px;
+	width: 185px;
+	position: relative;
+	margin: auto;
+	top: 75px;
+	background: url(../images/border1.png);
+
+}
+
+.icon_sec2 {
+	position: absolute;
+	max-height: 50px;
+	right: 57px;
+	width: 72px;
+	top: -20px;
+}
+
+
+.three_block2_sec2 p {
+	font-family: "Proba Pro Medium";
+	color: #e6dcc7;
+	font-size: 20px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+	display: block;
+	width: 147px;
+	position: absolute;
+	right: -40px;
+	top: 55px;
+
+}
+
+
+#section3 {
+	background:  #d2d5db;;
+	height: 866px;
+}
+
+
+
+#container3 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	
+}
+
+#container3 h2 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 27px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+
+.row_sec3 {
+	height: 195px;
+	position: relative;
+	right: -41px;
+}
+
+.block_quatro {
+	width: 24%;
+	height: 100%;
+	display: inline-block;
+	padding-top: 24px;
+	padding-left: 18px;
+
+}
+
+
+.content_block {
+
+	width: 245px;
+	height: 140px;
+	position: relative;
+}
+
+
+.border_el_sec3 {
+	border-width: 5px;
+	border-color: #7a6855;
+	border-style: solid;
+	width: 163px;
+	height: 125px;
+	position: relative;
+	z-index: 1;
+	display: block;
+
+}
+
+.img_sec3 {
+	position: absolute;
+	display: block;
+	z-index: 2;
+	width: 199px;
+	height: 145px;
+	top: 16px;
+	left: 23px;
+	-moz-transition-property: all;
+	-moz-transition: .3s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .3s ease-in;
+	cursor: pointer;
+}
+
+.img_sec3 img {
+	height: 100%;
+
+}
+
+.img_sec3:hover {
+	
+	top: 8px;
+	-moz-transition-property: all;
+	-moz-transition: .2s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .2s ease-in;
+
+	-webkit-box-shadow: 3px 3px 1px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 1px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 1px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+
+
+
+
+.block_quatro p {
+	font-family: "Proba Pro Medium";
+	color:
+	#ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+	background-color: #7a6855;
+	position: absolute;
+	z-index: 3;
+	top: 34px;
+	left: -24px;
+	padding: 0px 8px;
+}
+
+
+
+#container3 h3 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	margin-bottom: 40px;
+}
+
+
+.addly_service_block {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	right: -63px;
+}
+
+.addly_service_block p {
+	text-align: left;
+	font-family: "Proba Pro Medium";
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+
+
+
+#section4_divider_sell {
+	height: 94px;
+	background: url(../images/divider_sell.jpg);
+	position: relative;
+}
+
+
+
+#section4_divider_sell h2 {
+	font-family: "Proba Pro Bold";
+	color: #38281c;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 3px;
+	right: 197px;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.cor_h2_sec4 {
+	font-family: "Proba Pro Bold";
+	color: #38281c;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	top: 38px;
+	left: 638px;
+	text-transform: uppercase;
+	font-weight: 100;
+	width: 150px;
+	margin-bottom: 0px;
+
+
+}
+
+
+.cor_h2_sec4  h2 {
+	font-family: "Proba Pro Bold";
+	color: #38281c;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	left:0px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 0px !important;
+	
+
+
+}
+
+.percent_h2 {
+	font-family: "Proba Pro Bold";
+	color: #0da7eb;
+	font-size: 45px;
+	text-align: center;
+	position: absolute;
+	top: 34px;
+	left: 790px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 0px !important;
+
+}
+
+
+.button2_form {
+	height: 41px;
+	width: 18%;
+	border: #7a6855 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(255,255,255,1);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	position: absolute;
+	
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	top: 39px;
+	left: 890px;
+	-moz-transition-property: all;
+	-moz-transition: .2s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .2s ease-in;
+
+}
+
+
+.button2_form:hover {
+	
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	top: 40px;
+	-moz-transition-property: all;
+	-moz-transition: .1s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: .1s ease-in;
+
+}
+
+
+
+
+
+
+
+
+#container5 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+	position: relative;
+}
+
+#container5 h2 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 51px;
+	margin-bottom: 106px;
+	text-transform: uppercase;
+}
+
+
+.grid_row_sec5 { 
+	height: 280px;
+	position: relative;
+	left: 54px;
+
+
+}
+
+.grid_block_sec5 {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	
+}
+
+.cont_sec5 {
+	height: 100%;
+	width: 295px;
+	overflow: hidden;
+}
+
+.icon_box {
+	position: absolute;
+}
+
+.cont_sec5 h3 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	text-transform: uppercase;
+	top: 60px;
+}
+
+
+.cont_sec5 p {
+	position: relative;
+	top: 72px;
+	font: 18px/23px "Proba Pro Medium";
+	color: #000000;
+	text-align: center;
+	position: relative;
+	width: 239px;
+	margin: auto;
+	opacity: 0.8;
+}
+
+
+
+#container_gallery {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+	position: relative;
+}
+
+.grid_block_wrap_gal1 {
+	height: 200px;
+	max-width: 1000px;
+	margin: auto;
+	left: 25px;
+	position: relative;
+}
+
+.grid_block_gal1 {
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+}
+
+#container_gallery h2 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 27px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+}
+
+.img_gal {
+	width: 275px;
+	height: 100%;
+	
+}
+
+.img_gal img {
+	height: 100%;
+}
+
+.button3 {
+	height: 41px;
+	width: 20%;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	left: 5px;
+	font-family: "Proba Pro Medium";
+	color: #0da7eb;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+
+
+.form3 {
+	width: 90%;
+	height: 135px;
+	margin: auto;
+	padding-top: 7px;
+	
+}
+
+.form3 p {
+	font: 25px/25px "Proba Pro Medium";
+	color: #000;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.textbox_form3 {
+	height: 44px;
+	width: 25%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #7a6855;
+	border: #7a6855 2px solid;
+	color: #fff;
+	text-align: left;
+	right: 22px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.textbox2_form3 {
+	height: 44px;
+	width: 25%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #7a6855;
+	border: #7a6855 2px solid;
+	color: #fff;
+	text-align: left;
+	right: 4px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.button_form3 {
+	height: 41px;
+	width: 25%;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow:         0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	left: 14px;
+
+	font-family: "Proba Pro Medium";
+	color: #0da7eb;
+	font-size: 22px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 7px;
+	top: -5px;
+	
+}
+
+
+.button_form3:hover {
+	
+
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow:    0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow:         0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	top: 0px;
+
+
+}
+
+
+
+#section_devider2 {
+	height: 107px;
+	background: url(../images/divider_sell.jpg);
+
+}
+
+#container_devider2 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+	position: relative;
+}
+
+#section_map {
+	height: 520px;
+	background: url(../images/map.jpg);
+
+}
+
+#container_map {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	top: -523px;
+}
+
+
+#container_map h2 {
+	font-family:  "Proba Pro Medium";
+	color: rgba(255,255,255,1);
+	font-size: 27px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	font-weight: 200;	
+	margin-bottom: 106px;
+	text-transform: uppercase;
+	background-color: #7a6855;
+	width: 611px;
+	padding: 6px 2px;
+	margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+.form4 {
+	border-width: 8px;
+	border-color: #7a6855;
+	border-style: solid;
+	width: 75%;
+	height: 135px;
+	margin: auto;
+	background: #e6dcc7;
+	top: 418px;
+	position: relative;
+}
+
+.form4 p {
+	font: 22px/22px "Proba Pro Medium";
+	color: #000;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.textbox_form4 {
+	height: 50px;
+	width: 23%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #fff;
+	border: #fff 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 12px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.textbox2_form4 {
+	height: 50px;
+	width: 23%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #fff;
+	border: #fff 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 0px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.button_form4 {
+	border-width: 2px;
+	border-color:  #000000;
+	border-style: solid;
+	width: 178px;
+	height: 50px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(0,0, 0, 0.75);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(0,0, 0, 0.75);
+	box-shadow:         0px 4px 0px 0px rgba(0,0, 0, 0.75);
+	position: relative;
+	left: 15px;
+
+	font-family: "Proba Pro Medium";
+	color: #000;
+	font-size: 22px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+}
+
+
+.button_form4:hover {
+	
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 0px 0px 0px rgba(122,104,85, 0.75);
+	top: 5px;
+
+	
+	-moz-transition-property: all;
+	-moz-transition: 0s ease-in;
+	-webkit-transition-property: all;
+	-webkit-transition: 0s ease-in;
+
+}
+
+
+
+.data_form4 {
+	width: 4%;
+	height: 50px;
+	display: inline-block;
+	border: #fff 2px solid;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	color: #7a6855;
+	padding-left: 7px;
+}
+
+.select_date {
+
+	font: 18px/22px "Proba Pro Medium";
+	color: #7a6855;
+	font-weight: 200;
+	text-align: center;
+	width: 150px;
+	display: inline-block; 
+
+
+
+
+
+}
+
+
+#section_last {
+	height: 500px;
+	background-color:  #28221b;
+}
+
+
+#container_last {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	
+}
+
+
+
+#container_last h2 {
+	font-family: "Proba Pro Medium";
+	color: rgba(255,255,255,1);
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 97px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+
+.ic_cont1  {
+	display: inline-block;
+	height: 45px;
+	width: 40px;
+	position: relative;
+	top:100px;
+	overflow: hidden;
+}
+
+.ic_cont1 img {
+	top: 10px;
+	position: relative;
+}
+
+.cont1_last {
+	display: inline-block;
+	height: 45px;
+	width: 150px;
+	position: relative;
+	top:100px;
+	overflow: hidden;
+	font-family: "Proba Pro Medium";
+	color: rgba(255,255,255,1);
+	font-size: 18px;
+	position: relative;
+	padding-top: 10px;
+	text-align: left;
+
+
+}
+
+.ic_cont2 {
+	display: inline-block;
+	height: 45px;
+	width: 40px;
+	position: relative;
+	top:100px;
+	overflow: hidden;
+}
+
+.ic_cont2 img {
+	top: 15px;
+	position: relative;
+}
+
+
+
+#form5	{
+	border-width: 8px;
+	border-color:  #7a6855;
+	border-style: solid;
+	width: 598px;
+	height: 272px;
+	position: relative;
+	margin: 0 auto;
+	top: 100px;
+}
+
+
+
+
+#form5 h2 {
+	font-family: "Proba Pro Medium";
+	color: rgba(255,255,255,1);
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+
+
+
+.textbox_form5 {
+	height: 40px;
+	width: 240px;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #fff;
+	border:  #7a6855 2px solid;
+	color: #fff;
+	background: #7a6855;
+	text-align: left;
+	right: 12px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+	top: 20px;
+	margin-right: 15px;
+}
+
+
+.textbox2_form5 {
+	height: 40px;
+	width: 240px;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #fff;
+	border:  #7a6855 2px solid;
+	color: #fff;
+	background: #7a6855;
+	text-align: left;
+	right: 0px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+	top: 20px;
+}
+
+
+.last_text {
+	height: 70px;
+	width: 513px;
+	position: relative;
+	top: 40px;
+	left: -5px;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background: #7a6855;
+	border:  #7a6855 2px solid;
+	padding-left: 10px;
+}
+
+
+
+.button4 {
+	height: 41px;
+	width: 200px;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	top: 50px;
+	font-family: "Proba Pro Medium";
+	color: #0da7eb;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+}
+
+
+
+.button4:hover {
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow: 0px 0px 0px 0px rgba(18, 83, 112, 0.75);
+	top: 53px;
+
+}
+
+
+
+
+.numbers {
+	display: inline-block;
+	height: 45px;
+	width: 200px;
+	position: relative;
+	top:100px;
+	overflow: hidden;
+	font-family: "Proba Pro Medium";
+	color: rgba(255,255,255,1);
+	font-size: 18px;
+	position: relative;
+	padding-top: 10px;
+	text-align: left;
+	left: 30px;
+
+
+}
+
+footer {
+
+	height: 40px;
+
+}
+
+
+.autograf {
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 18px;
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 200px;
+	top: 10px;
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+/*........ВИДЫ УСЛУГ............ СЛАЙДЕР......*/
+
+#container_type_services {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+
+}
+
+
+#section_type_services {
+	background: #e3ded5;
+
+}
+
+
+
+#container_type_services h2 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	margin-bottom: 32px;
+	text-transform: uppercase;
+}
+
+
+
+/*........ВИДЫ УСЛУГ..................*/
+
+
+#slider_mainwrap {
+	width: 960px;
+	margin: auto;
+	left: 4px;
+	position: relative;
+}
+
+
+
+.slider_block { 
+
+	
+	background: #ddd;
+	width: 240px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+.slider_block_1 { 
+
+	
+	background: url(../images/slide1.jpg);
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+.sli_nameblock1 {
+	width: 186px;
+	height: 125px;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	left: 20px;
+	background: url(../images/border2_1.png);
+}
+
+
+.slider_block_2 { 
+
+	
+	background: url(../images/slide2.jpg);
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+
+.sli_nameblock2 {
+	width: 186px;
+	height: 125px;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	left: 20px;
+	background: url(../images/border2_2.png);
+}
+
+
+.slider_block_3 { 
+
+	
+	background:url(../images/slide3.jpg);
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+.sli_nameblock3 {
+	width: 186px;
+	height: 125px;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	left: 20px;
+	background: url(../images/border2_3.png);
+}
+
+
+.slider_block_4 { 
+
+	
+	background: url(../images/slide4.jpg);
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+.sli_nameblock4 {
+	width: 186px;
+	height: 125px;
+	position: relative;
+	top: 100px;
+	z-index: 2;
+	left: 20px;
+	background: url(../images/border2_4.png);
+}
+
+
+.slider_block_5 { 
+
+	
+	background: #ddd;
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+	cursor: pointer;
+
+}
+
+.slider_block { 
+
+	
+	background: #ddd;
+	width: 238px;
+	overflow: hidden;
+	height: 350px;
+
+}
+
+
+.black_block {   
+	width: 99%;
+
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	height: 100%;
+	top: 0%;
+	z-index: 1;
+
+
+} 
+
+
+.black_block:hover {
+	opacity: 0;
+}
+
+
+
+.slider_box { 
+	height: 660px;
+	background: #e3ded5;
+	display: none;
+
+}
+
+#slider_box_container {
+
+	width: 100%;
+	max-width: 960px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.tab {
+	display: inline-block;
+	border-width: 3px;
+	border-color:  #1477a3;
+	border-style: solid;
+	width: 222px;
+	height: 43px;
+
+	font: 18px/23px "Proba Pro Medium";
+	color:  #1477a3;
+	text-align: center;
+	margin-right: 2%;
+	margin-top: 25px;
+	padding-top: 5px;
+}
+
+.tab:last-child {
+	margin-right: 0%;
+}
+
+.active_tab {
+	color:  #fff;
+	background: #1477a3;
+}
+
+.slbox_cont {
+	display: inline-block;
+	width: 49%;
+	height: 498px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.slbox_img {
+	border-width: 4px;
+	border-color:  #7a6855;
+	border-style: solid;
+	width: 464px;
+	height: 499px;
+	height: 100%;
+}
+
+.text {
+
+	font-family: "Proba Pro Medium";
+
+	color:  #000000;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 200;
+	line-height: 22px;/* Приближение из-за подстановки шрифтов */
+	text-align: justify;
+}
+
+.button_slidebox {
+	height: 41px;
+	width: 250px;
+	border: #7a6855 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(255,255,255,0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	display: block;
+	position: relative;
+	top: 194px;
+	left: 118px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*........ВИДЫ УСЛУГ..................*/
+
+
+
+/*..........ОТзывы................*/
+
+
+#section_review {
+
+	height: 1020px;
+	background: #e3e3e1;
+
+
+}
+
+
+
+#container_section_review {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+
+
+}
+
+
+#container_section_review  h2 {
+	font-family: "Proba Pro Medium";
+	color: #000;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: auto;
+	top: 27px;
+
+}
+
+
+.review_block {
+	height: 350px;
+	margin-top: 30px;
+
+}
+
+.review_img_block {
+	display: inline-block;
+	width: 34%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.review_text {
+	display: inline-block;
+	width: 63%;
+	height: 100%;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+
+.inner_img_block {
+	width: 270px;
+	height: 200px;
+	position: relative;
+	left: 90px;
+	top: 30px;
+
+
+}
+
+.inner_img_block img {
+	height: 100%;
+
+}
+
+.border_box {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	border-width: 5px;
+	border-color:  #7a6855;
+	border-style: solid;
+	width: 161px;
+	height: 139px;
+	top: 132px;
+	left: 244px;
+}
+
+.border_box2 {
+	display: inline-block;
+	position: relative;
+	
+	width: 161px;
+	height: 139px;
+	overflow: hidden;
+
+	
+}
+
+.face {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 108px;
+	height: 108px;
+	top: 148px;
+	left: 270px;
+
+	border-radius: 50%;
+	overflow: hidden;
+
+
+
+}
+
+.face2 {
+	display: block;
+	position: relative;
+	
+	width: 108px;
+	height: 108px;
+	top: 10px;
+	left: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+
+
+}
+
+
+#container_section_review  h3 {
+	font-family: "Proba Pro Medium";
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+
+	position: relative;
+	
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: auto;
+	top: 27px;
+	color:  #7a6855;
+
+}
+
+
+#container_section_review  p {
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+	top: 40px;
+	position: relative;
+
+
+
+}
+
+.button_review {
+	height: 41px;
+	width: 25%;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	left: 5px;
+	font-family: "Proba Pro Medium";
+	color: #1692cd;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	top: 90px;
+	left: 72px;
+
+	
+}
+
+
+.button2_review {
+	height: 41px;
+	width: 14%;
+	border-width: 2px;
+	border-color:  #7a6855;
+	border-style: solid;
+	width: 177px;
+	height: 37px;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	display: block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);;
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);;
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);;
+	position: relative;
+	
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+	left: 44%;
+	
+	
+}
+
+
+
+
+
+
+
+
+/*..........ОТзывы................*/
+
+
+
+/*...................КАЛЬКУЛЯТОР..................*/
+
+
+
+
+#section_calc {
+	height: 775px;	
+	background: url(../images/divider_sell.png);
+	background-color: #e8e4dd;
+}
+
+
+#container_calc {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+
+
+}
+
+#container_calc h2 {
+	font-family: "Proba Pro Medium";
+	color: #000;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: auto;
+	top: 27px;
+
+}
+
+#container_calc h3 {
+	font-family: "Proba Pro Regular";
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: auto;
+	top: 10px;
+	margin-bottom: 30px;
+
+}
+
+
+#container_calc p {
+
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 18px;
+	font-weight: 200;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #000;
+	margin-top: 15px;
+
+}
+
+
+
+.calc_block2 {
+	height: 535px;
+	display: inline-block;
+	width: 48%;
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.calc_block1 {
+	border-width: 4px;
+	border-color:  #7a6855;
+	border-style: solid;
+	height: 535px;
+	display: inline-block;
+	width: 48%;
+	top: 60px;
+	overflow: hidden;
+}
+
+.calc_sub_block1 {
+	display: inline-block;
+	width: 35%;
+	height: 30px;
+	position: relative;
+	margin-top: 5px;
+	text-align: left;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+
+}
+
+.calc_select {
+	display: inline-block;
+	width: 47%;
+	height: 30px;
+	position: relative;
+	margin-top: 5px;
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 22px;
+
+
+}
+
+.input_calc1 {
+
+	display: inline-block;
+	width: 47%;
+	height: 30px;
+	position: relative;
+	margin-top: 5px;
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 22px;
+
+}
+
+
+.calc_sub_block2 {
+	display: inline-block;
+	width: 41%;
+	height: 30px;
+	position: relative;
+	margin-top: 5px;
+	text-align: left;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+	padding-left: 7px;
+
+}
+
+.calc_sub_block3 {
+	display: inline-block;
+	width: 51%;
+	height: 30px;
+	position: relative;
+	margin-top: 5px;
+	text-align: left;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+	padding-left: 7px;
+
+}
+
+
+.check_field {
+	position: relative;
+	left: 80px;
+}
+
+.button1_calc {
+	height: 31px;
+	width: 125px;
+	border: #7a6855 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(255,255,255,0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	font-family: "Proba Pro Regular";
+	color: #7a6855;
+	font-size: 16px;
+	font-weight: 200;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	margin-right: -13px;
+	margin-left: 20px;
+	margin-top: 16px;
+
+}
+
+
+.button2_calc {
+	height: 31px;
+	width: 188px;
+	border: #7a6855 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(255,255,255,0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	font-family: "Proba Pro Regular";
+	color: #7a6855;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-right: -13px;
+	margin-left: 20px;
+	margin-top: 29px;
+	left: 32%;
+}
+
+
+.count  {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background:  #cbc4b8;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.postion  {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background:  #e3ded5;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.lenght  {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background:  #cbc4b8;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.sum  {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background: #e3ded5;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+
+
+.tovar_wrap {
+	margin-top: 3px;
+}
+
+.oplata {
+	background-color:  #7a6855;
+	width: 390px;
+	height: 37px;
+	position: relative;
+	left: 33%;
+	margin-top: 15px;
+	padding-top: 7px;
+
+
+
+	font-family: "Proba Pro Medium";
+	color: #fff;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+
+
+#section_gallery_page {
+	background:  #d2d5db;
+	height: 1500px;
+}
+
+
+
+
+
+
+/*...................КАЛЬКУЛЯТОР..................*/
+
+
+
+
+
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+
+@media only screen and (max-width : 1900px) {
+
+}
+
+
+@media only screen and (max-width : 1500px) {
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+	.nav_container li:last-child {
+		display: none;
+
+	}
+
+	.button_form1  {
+		font-size: 18px;
+	}
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 360px) {
+
+
+	.phone_block {
+		display: block;
+		height: 47px;
+		width: 62%;
+		position: absolute;
+		top: -6px;
+		left: 128px;
+	}
+
+
+
+	.phone_block h2 {
+		font: 20px "Proba Pro Medium", Arial, sans-serif;
+		color: #000;
+		display: inline-block;
+		margin-top: 9px;
+	}
+
+
+	.phone_icon {
+		height: 47%;
+		position: absolute;
+		width: 40px;
+		background: url(../images/telephone.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		right: 131px;
+		top: 10px;
+	}
+
+
+	.logo_block {
+		display: block;
+		height: 65px;
+		width: 42%;
+		padding-top: 0;
+		padding-bottom: 0px;
+		position: absolute;
+		top: 20px;
+	}
+
+
+
+	.form1 {
+		border-width: 8px;
+		border-color: #7a6855;
+		border-style: solid;
+		width: 79%;
+		height: 364px;
+		margin: auto;
+		margin-top: 66px;
+	}
+
+
+	.cont1_h1_1 {
+		font-family: "Proba Pro Regular";
+		color: #0ca7eb;
+		font-size: 40px;
+		font-weight: 200;
+		text-align: center;
+		margin-top: 24px;
+	}
+
+
+	#section1_enter {
+		height: 859px;
+		max-height: 1000px;
+
+		background: url(../images/main_bg.jpg);
+		background-size: 90%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	.textbox {
+		height: 44px;
+		width: 85%;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		background-color: #000;
+		border: #000 2px solid;
+		color: #7a6855;
+		text-align: left;
+		right: 5px;
+		margin-top: 43px;
+		position: relative;
+		display: inline-block;
+	}
+
+
+	.textbox2 {
+		height: 44px;
+		width: 84%;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		background-color: #000;
+		border: #000 2px solid;
+		color: #7a6855;
+		text-align: left;
+		right: 4px;
+		margin-top: 13px;
+		position: relative;
+		display: inline-block;
+	}
+
+
+	.form1 p {
+		font: 15px/22px "Proba Pro Medium";
+		color: #ffffff;
+		font-weight: 500;
+		text-align: center;
+		margin-top: 5px;
+		padding: 2px 36px;
+	}
+
+	.button_form1 {
+		height: 41px;
+		width: 84%;
+		border: #1477a3 2px solid;
+		box-sizing: border-box;
+		padding: 0px;
+		background: rgba(0,0,0,.0);
+		color: #FFF;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-weight: 200;
+
+		transition: background .4s;
+		cursor: pointer;
+		display: inline-block;
+		-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		-moz-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		position: relative;
+		left: -4px;
+		font-family: "Proba Pro Medium";
+		color: #0da7eb;
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		top: 28px;
+	}
+
+
+
+
+	#section2 {
+		height: 1341px;
+	}
+
+
+	.three_block_sec2 {
+		display: inline-block;
+		width: 98%;
+		height: 110px;
+	}
+
+
+	#container2 {
+		max-width: 1200px;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		height: 30%;
+	}
+
+
+	.three_block2_sec2 {
+		display: inline-block;
+		width: 100%;
+		height: 300px;
+	}
+
+	.bg_section2 {
+		height: 643px;
+		background: url(../images/bg_section2.jpg);
+	}
+
+	.bg_section2 {
+		height: 943px;
+		background: url(../images/bg_section2.jpg);
+	}
+
+
+
+	.row_sec3 {
+		height: auto;
+		position: relative;
+		right: -41px;
+		width: 154px;
+	}
+
+	.block_quatro {
+		width: 89%;
+		height: 100%;
+		display: inline-block;
+		padding-top: 24px;
+		padding-left: 18px;
+	}
+
+	#section3 {
+		background: #d2d5db;
+		height: 2477px;
+	}
+
+	.addly_service_block {
+		position: relative;
+		display: inline-block;
+		width: 300px;
+		height: 100px;
+		right: -17px;
+	}
+	#section4_divider_sell {
+		height: 94px;
+		background: url(../images/divider_sell.jpg);
+		position: relative;
+		display: none;
+	}
+	.grid_row_sec5 {
+		height: auto;
+		position: relative;
+		left: 24px;
+		width: 180px;
+	}
+
+	.grid_block_sec5 {
+		display: block;
+		width: 100%;
+		height: 84%;
+		margin-top: 86px;
+		position: relative;
+	}
+
+	
+	.cont_sec5 {
+		height: 100%;
+		width: 295px;
+		overflow: visible;
+	}
+
+
+	#section_type_services {
+		display: none;
+	}
+
+
+	#section_gallery {
+		margin-top: 150px;
+	}
+
+	.grid_block_gal1 {
+		height: 100%;
+		width: 89%;
+		display: inline-block;
+	}
+
+	.grid_block_wrap_gal1 {
+		height: auto;
+		max-width: 1000px;
+		margin: auto;
+		left: 0px;
+		position: relative;
+		width: 295px;
+	}
+
+
+	#container_gallery h2 {
+		font-family: "Proba Pro Medium";
+		color: #000000;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+		position: relative;
+		top: 20px;
+		margin-bottom: 50px;
+		text-transform: uppercase;
+	}
+
+	.button3 {
+		height: 41px;
+		width: 76%;
+		border: #1477a3 2px solid;
+		box-sizing: border-box;
+		padding: 0px;
+		background: rgba(0,0,0,.0);
+		color: #FFF;
+		transition: background .4s;
+		cursor: pointer;
+		display: inline-block;
+		-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		-moz-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+		position: relative;
+		left: 5px;
+		font-family: "Proba Pro Medium";
+		color: #0da7eb;
+		font-size: 22px;
+		font-weight: 500;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+
+
+	#container_gallery {
+		max-width: 1200px;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		height: 86%;
+		position: relative;
+		width: 317px;
+	}
+
+
+	#section_devider2 {
+		height: 175px;
+		background: url(../images/white_bg.jpg);
+		display: none;
+	}
+	.form4 {
+		border-width: 8px;
+		border-color: #7a6855;
+		border-style: solid;
+		width: 75%;
+		height: 375px;
+		margin: auto;
+		background: #e6dcc7;
+		top: 418px;
+		position: relative;
+	}
+
+
+	#section_last {
+		height: 878px;
+		background-color: #28221b;
+	}
+
+
+	.textbox_form4 {
+		height: 50px;
+		width: 80%;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		background-color: #fff;
+		border: #fff 2px solid;
+		color: #7a6855;
+		text-align: left;
+		right: 1px;
+		margin-top: 13px;
+		position: relative;
+		display: inline-block;
+	}
+
+	.textbox2_form4 {
+		height: 50px;
+		width: 80%;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		background-color: #fff;
+		border: #fff 2px solid;
+		color: #7a6855;
+		text-align: left;
+		right: 0px;
+		margin-top: 13px;
+		position: relative;
+		display: inline-block;
+	}
+
+
+
+	.data_form4 {
+		width: 13%;
+		height: 41px;
+		display: inline-block;
+		border: #fff 2px solid;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-weight: 200;
+		font-size: 20px;
+		color: #7a6855;
+		padding-left: 6px;
+		margin-top: 25px;
+		left: -12px;
+		position: relative;
+	}
+
+
+
+	.button_form4 {
+		border-width: 2px;
+		border-color: #000000;
+		border-style: solid;
+		width: 178px;
+		height: 45px;
+		background: rgba(0,0,0,.0);
+		color: #FFF;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-weight: 200;
+		font-size: 20px;
+		transition: background .4s;
+		cursor: pointer;
+		display: inline-block;
+		-webkit-box-shadow: 0px 4px 0px 0px rgba(0,0, 0, 0.75);
+		-moz-box-shadow: 0px 4px 0px 0px rgba(0,0, 0, 0.75);
+		box-shadow: 0px 4px 0px 0px rgba(0,0, 0, 0.75);
+		position: relative;
+		left: 0px;
+		font-family: "Proba Pro Medium";
+		color: #000;
+		font-size: 22px;
+		font-weight: 500;
+		text-align: center;
+		top: 23px;
+	}
+
+
+	#form5 {
+		border-width: 8px;
+		border-color: #7a6855;
+		border-style: solid;
+		width: 333px;
+		height: 272px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 178px;
+	}
+
+	#container_map h2 {
+		font-family: "Proba Pro Medium";
+		color: rgba(255,255,255,1);
+		font-size: 23px;
+		text-align: center;
+		position: relative;
+		top: 20px;
+		font-weight: 200;
+		margin-bottom: 106px;
+		text-transform: uppercase;
+		background-color: #7a6855;
+		width: 298px;
+		padding: 6px 2px;
+		margin: auto;
+	}
+
+
+
+	#form5 h2 {
+		font-family: "Proba Pro Medium";
+		color: rgba(255,255,255,1);
+		font-size: 18px;
+		text-align: center;
+		position: relative;
+		top: 10px;
+		font-weight: 200;
+		text-transform: uppercase;
+		margin: auto;
+	}
+
+
+	.textbox_form5 {
+		height: 40px;
+		width: 240px;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		background-color: #fff;
+		border: #7a6855 2px solid;
+		color: #fff;
+		background: #7a6855;
+		text-align: left;
+		right: -7px;
+		margin-top: 13px;
+		position: relative;
+		display: inline-block;
+		top: 20px;
+		margin-right: 15px;
+	}
+
+
+
+
+	.last_text {
+		height: 70px;
+		width: 273px;
+		position: relative;
+		top: 40px;
+		left: 1px;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		color: #fff;
+		background: #7a6855;
+		border: #7a6855 2px solid;
+		padding-left: 10px;
+	}
+
+
+	.button4 {
+
+		top: 84px;
+
+
+
+	}
+
+
+	.textbox2_form5 {
+		height: 40px;
+		width: 240px;
+		box-sizing: border-box;
+		font-family: 'Proba Pro Medium', sans-serif;
+		font-size: 18px;
+		padding: 0px 6px;
+		background-color: #fff;
+		border: #7a6855 2px solid;
+		color: #fff;
+		background: #7a6855;
+		text-align: left;
+		right: 0px;
+		margin-top: 13px;
+		position: relative;
+		display: inline-block;
+		top: 20px;
+	}
+
+
+
+
+	.numbers {
+		display: inline-block;
+		height: 39px;
+		width: 177px;
+		position: relative;
+		top: 183px;
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		font-family: "Proba Pro Medium";
+		color: rgba(255,255,255,1);
+		font-size: 16px;
+		position: relative;
+		padding-top: 10px;
+		text-align: left;
+		left: -43px;
+		text-align: right;
+	}
+
+	.last_cor {
+		top: 250px;
+		position: relative;
+	}
+
+
+	.autograf {
+		font-family: "Proba Pro Medium";
+		color: #7a6855;
+		font-size: 18px;
+		position: relative;
+		margin: auto;
+		display: block;
+		width: 200px;
+		top: 10px;
+		left: 21px;
+	}
+
+
+
+	.menu-trigger {
+		display: block;
+		position: relative;
+		font-size: 14px;
+		padding-bottom: 0px;
+		cursor: pointer;
+		font: 20px "Proba Pro Medium", Arial, sans-serif;
+		color: #FFF;
+		text-decoration: none;
+		top: px;
+		left: 42%;
+		width: 58%;
+	}
+
+	.nav_container_mobile {
+		display: block;
+		background: #7a6855;
+	}
+
+	.nav_container_mobile ul {
+		display: none;
+		
+	}
+
+
+	.nav_container_mobile ul li {
+		display: block;
+		background: #7a6855;
+		width: 100%;
+		text-align: center;
+		position: relative;
+
+	}
+
+	.nav_container_mobile li a {
+		font: 20px "Proba Pro Medium", Arial, sans-serif;
+		text-decoration: none;
+		color: #fff;
+		-moz-transition-property: all;
+		-moz-transition: .5s ease-in;
+		-webkit-transition-property: all;
+		-webkit-transition: .5s ease-in;
+		-webkit-transition-delay: 1s;
+		-moz-transition-delay: 1s;
+
+	}
+
+	.nav_container_mobile {
+		height: 30px;
+		width: 100%;
+
+	}
+
+	.nav_container {
+		display: none;
+	}
+
+
+	.fixed {
+		padding-top: 0px;
+	}
+
+
+
+	#section_calc {
+		display: none;
+	}
+
+
+	.review_img_block {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+
+	#section_review {
+		height: 2306px;
+		background: #e3e3e1;
+	}
+	.review_text {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 40px;
+	}
+
+
+
+	.review_block {
+		height: auto;
+		margin-top: 30px;
+	}
+
+
+
+	.review_img_block {
+		display: inline-block;
+		width: 314px;
+		height: 280px;
+		overflow: visible;
+		
+		position: relative;
+		left: -69px;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+	.cont1_h1_1 {
+		font-family: "Proba Pro Regular";
+		color: #0ca7eb;
+		font-size: 35px;
+
+	}
+
+
+
+	.grid_block_wrap_gal1 {
+		height: auto;
+		max-width: 1000px;
+		margin: auto;
+		left: 0px;
+		position: relative;
+	}
+
+	#container_map h2 {
+		font-family: "Proba Pro Medium";
+		color: rgba(255,255,255,1);
+		font-size: 23px;
+		text-align: center;
+		position: relative;
+		top: 20px;
+		font-weight: 200;
+		margin-bottom: 106px;
+		text-transform: uppercase;
+		background-color: #7a6855;
+		width: 298px;
+		padding: 6px 2px;
+		margin: auto;
+	}
+
+
+
+	.last_cor {
+		top: 355px !important;
+		position: relative;
+		font-size: 19px !important; 
+	}
+
+
+
+	#form5 {
+
+		width: 306px;
+
+	}
+
+
+
+	.numbers {
+
+		left: -10px;
+		text-align: center;
+	}
+
+
+	.phone_block {
+		display: block;
+		height: 47px;
+		width: 62%;
+		position: absolute;
+		top: -6px;
+		left: 109px;
+	}
+
+
+	.addly_service_block {
+		position: relative;
+		display: inline-block;
+		width: 274px;
+		height: 100px;
+		right: -17px;
+	}
+
+
+	.cont_sec5 {
+		height: 100%;
+		width: 289px;
+		overflow: visible;
+	}
+
+
+	.border_box2 {
+		display: inline-block;
+		position: relative;
+		width: 150px;
+		height: 139px;
+		overflow: hidden;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1500px) {
+
+}
+
+
+@media only screen and (min-width : 1800px) {
+	#section1_enter {
+		height: 1010px;
+		max-height: 1010px;
+		background: url(../images/main_bg.jpg);
+		background-size: 90%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	.form1 {
+		border-width: 8px;
+		border-color: #7a6855;
+		border-style: solid;
+		width: 75%;
+		height: 135px;
+		margin: auto;
+		margin-top: 280px;
+	}
+
+
+
+	.cont1_h1_1 {
+		font-family: "Proba Pro Regular";
+		color: #0ca7eb;
+		font-size: 40px;
+		font-weight: 200;
+		text-align: center;
+		margin-top: 280px;
+	}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
